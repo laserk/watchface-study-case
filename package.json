@@ -1,0 +1,41 @@
+{
+  "name": "lkwatchface",
+  "author": "Laserk",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "lkwatchface",
+    "uuid": "3d6ab796-ae1d-4bca-8d6d-2a0537d02281",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type":"font",
+          "name":"FONT_PERFECT_DOS_48",
+          "file":"fonts/perfect-dos-vga.ttf",
+          "compatibility":"2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/background.png"
+        }
+      ]
+    }
+  }
+}
